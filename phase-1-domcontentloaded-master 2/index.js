@@ -1,17 +1,21 @@
-// Your code goes herer
+index.html
+```html
 <!DOCTYPE html>
-<html>
-<head>
-  <title>DOM Event Listener</title>
-</head>
-<body>
-  <p id="text">Initial text</p>
 
-  <script src="index.js"></script>
-</body>
-</html>
 
+
+
+
+Initial text
+
+
+
+
+```
+
+script.js
+javascript
 document.addEventListener("DOMContentLoaded", function() {
-  const paragraph = document.getElementById("text");
-  paragraph.textContent = "This is really cool!";
+const paragraph = document.getElementById("text");
+paragraph.textContent = "This is really cool!";
 });
